@@ -46,11 +46,17 @@ Frontend stub — minimal globe that queries /hotspots and renders points.
 # Goals for building the project weekly
 
 Week 1: repo, FastAPI skeleton, DB (tables), mock ingestion pipeline.
+
 Week 2: implement real AbuseIPDB fetch + enrichment (geo), store ip_records.
+
 Week 3: Cloudflare fetcher (or simulated), correlation script, endpoint /hotspots.
+
 Week 4: ML prototype + training script + save model; ML endpoint to score IPs.
+
 Week 5: Frontend globe + consume /hotspots; polish visualization.
+
 Week 6: Dockerize, add scheduler, basic auth, operator feedback loop, deploy to a cheap VM/test.
+
 
 that's all for now 
 
